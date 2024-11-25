@@ -63,7 +63,7 @@ export default function Footer() {
           
 
           <div className="footerSection">
-            <img  width="100px" src="/public/logojpg-removebg-preview.png" alt="" />
+            <img  width="100px" src="/logojpg-removebg-preview.png" alt="" />
             <p className="aboutText">
               موقع Round هو منصة إلكترونية تهدف إلى تقديم مجموعة متنوعة من
               
