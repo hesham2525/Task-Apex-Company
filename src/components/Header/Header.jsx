@@ -57,7 +57,7 @@ export default function Header() {
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
                   <img
-                    src="/public/logojpg-removebg-preview.png"
+                    src="../../../public/logojpg-removebg-preview.png"
                     width="50px"
                     alt=""
                   />
