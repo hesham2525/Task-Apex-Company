@@ -303,10 +303,7 @@
 /* /////////////////////////////////// */
 .travel {
   width: 100%; 
-}
-.imageContainer {
   position: relative; 
-  width: 100%;
   height: 250px; 
 }
 .backgroundImage{
@@ -353,7 +350,6 @@
   right: 50px;
   display: flex;
   justify-content: space-between;
-  align-items: start;
   direction: rtl;
 }
 .imageContainerTravel {
@@ -508,10 +504,14 @@
   padding: 0;
 }
 /* /////////////////////////////////// */
-
+.omanCity {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
 
 /* /////////////////////////////////// */
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1126px) {
   
   .register-button {
     display: flex;
@@ -519,7 +519,7 @@
     margin-bottom: 10px;
   }
   .regester {
-    width: 30%;
+    width: 25%;
     height: auto;
     display: flex;  
     flex-grow: 1;
@@ -528,6 +528,18 @@
     padding-bottom: 1%;
 
     
+  }
+  .label1{
+    font-size: 12px;
+
+  }
+  .option{
+    width: 130px;
+    height: 35px;
+  }
+  .btn3{
+    width: 100px;
+  height: 40px;
   }
   .cities{
     margin-top: 20%;
@@ -558,14 +570,11 @@
     justify-content: center;
     align-items: center;
   }
-  .backgroundImage{
-    display: none;
-  }
+
   .imgTravel1 {
-    width: 95%; 
-    height: 60%;
+    width: 100%; 
+    height: 100%;
     border-radius: 20px;
-    margin-top: 10%; 
   }
   .verticalText {
     position: absolute;
@@ -586,22 +595,30 @@
 
   }
   .imageContainerTravel2 {
-    width: 300px; 
-    height: 280px; 
+    width: 250px; 
+    height:250px;
     margin-bottom:20%;
      border-radius: 20px; 
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   .travelText2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    display: flex;
+    flex-direction: column;
     justify-content: center; 
     align-items: center; 
     margin-top: 10%;
   }
-  .btn4{
-
+  .omanCity{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: start;
+    justify-content: center;
+  }
+  .imageContainerTravel{
+    width: 250px; 
+    height:250px;
   }
   .sun{
     display: none;
@@ -611,3 +628,144 @@
   }
  
 }
+@media only screen and (max-width: 765px)  {
+  .omanCity{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: start;
+    justify-content: center;
+    padding-top: 5%;
+  
+  }
+  .imageContainerTravel{
+    width: 220px; 
+    height:220px;
+  }
+  .imageContainerTravel2 {
+    width: 220px; 
+    height:220px;
+    
+  }
+ 
+  
+}
+
+ 
+
+@media only screen and (max-width:675px)  {
+  .omanCity{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: start;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  .imageContainerTravel{
+    width: 200px; 
+    height:200px;
+  }
+  .imageContainerTravel2 {
+    width: 200px; 
+    height:200px;
+    
+  }
+  
+}
+@media only screen and (max-width:690px){
+  .regester {
+    width: 25%;
+    height: auto;
+    display: flex;  
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    bottom: -60%;
+    padding-bottom: 1%;
+
+    
+  }
+  .label1{
+    font-size: 12px;
+
+  }
+  .option{
+    width: 130px;
+    height: 35px;
+    font-size: 15px;
+
+  }
+  .btn3{
+    width: 100px;
+  height: 40px;
+  }
+  
+
+}
+@media only screen and (max-width:622px){
+  .regester {
+    width: 25%;
+    height: auto;
+    display: flex;  
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    bottom: -65%;
+    padding-bottom: 1%;
+
+    
+  }
+  .label1{
+    font-size: 9px;
+
+  }
+  .option{
+    width: 115px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .btn3{
+    width: 80px;
+    height: 40px;
+  }
+  
+
+}
+@media only screen and (max-width:540px)  {
+  .regester {
+    width: 25%;
+    height: auto;
+    display: flex;  
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    bottom: -69%;
+    padding-bottom: 1%;
+
+    
+  }
+  .label1{
+    font-size: 9px;
+
+  }
+  .option{
+    width: 115px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .btn3{
+    width: 80px;
+    height: 40px;
+  }
+  
+}
+@media only screen and (max-width:454px)  {
+  .omanCity{
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: start;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  
+}
+

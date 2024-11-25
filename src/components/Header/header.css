@@ -155,6 +155,7 @@
     background-color: #0f6281;
 
   }
+  
 
   @media only screen and (max-width: 990px) {
     .textVedio {
@@ -207,4 +208,36 @@
       }
 
   }
+  @media only screen and (max-width: 745px) {
+    .header{
+      height: 105px;
+    }
+    .paragraph11{
+      font-size: 30px;
+      }
+      .paragraph22{
+        font-size: 13px;
+        font-weight: 300;
+        }
+        .btn2{
+          width:90px;
+          height: 30px;
+        }
+        .textVedio2 {
+          display: block;
+          position: absolute;
+          top: 35%;
+          right: 35%;
+          text-align: center;
+          color: white;
+        }
+  }
+  @media only screen and (max-width: 515px) {
+   
+        .textVedio2 {
+          display: none;
+        
+        }
+  }
+ 
  

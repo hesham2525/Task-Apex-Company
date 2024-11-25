@@ -164,56 +164,54 @@ export default function Index() {
           alt="wave-lines"
         />
         <div className="travel">
-          <div className="imageContainer">
-            <img className="backgroundImage" src="/background.png" alt="" />
-            <div className="travelText1">
-              <button className="btn4">
-                <FaLongArrowAltLeft /> استكشف
-              </button>
-            </div>
-            <div className="travelText2">
-              <div>
-                <div>
-                  <h3
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "40px",
-                      marginRight: "50px",
-                    }}
-                    className="cityText1"
-                  >
-                    الرحلات السياحية{" "}
-                  </h3>
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "20px",
-                      marginRight: "50px",
-                    }}
-                    className="cityText2"
-                  >
-                    استمتع باستكشاف رحلتك{" "}
-                  </p>
-                  <p
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: "20px",
-                      marginRight: "50px",
-                    }}
-                    className="cityText2"
-                  >
-                    السياحية المميزة{" "}
-                  </p>
-                  <div className="arrowButtons">
-                    <button className="arrowButton solid">
-                      <span className="arrow">→</span>
-                    </button>
-                    <button className="arrowButton transparent">
-                      <span className="arrow">←</span>
-                    </button>
-                  </div>
-                </div>
+          <img className="backgroundImage" src="/background.png" alt="" />
+          <div className="travelText1">
+            <button className="btn4">
+              <FaLongArrowAltLeft /> استكشف
+            </button>
+          </div>
+          <div className="travelText2">
+            <div>
+              <h3
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "40px",
+                  marginRight: "50px",
+                }}
+                className="cityText1"
+              >
+                الرحلات السياحية{" "}
+              </h3>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                  marginRight: "50px",
+                }}
+                className="cityText2"
+              >
+                استمتع باستكشاف رحلتك{" "}
+              </p>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                  marginRight: "50px",
+                }}
+                className="cityText2"
+              >
+                السياحية المميزة{" "}
+              </p>
+              <div className="arrowButtons">
+                <button className="arrowButton solid">
+                  <span className="arrow">→</span>
+                </button>
+                <button className="arrowButton transparent">
+                  <span className="arrow">←</span>
+                </button>
               </div>
+            </div>
+            <div className="omanCity">
               <div className="imageContainerTravel">
                 <img className="imgTravel1" src="/11.jpg" alt="Travel" />
                 <div className="verticalText ">الرحلة الاقتصادية </div>
