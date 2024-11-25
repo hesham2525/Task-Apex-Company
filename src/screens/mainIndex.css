@@ -125,6 +125,19 @@
 .cityText1 {
   color: rgb(20, 82, 158);
 }
+.cityText1Z{
+  color: rgb(20, 82, 158);
+  font-size: 40px;
+ font-weight: bold;
+ margin-right: 50px;
+}
+.cityText2z{
+  font-size: 20px;
+ font-weight: bold;
+ margin-right: 50px;
+ color: gray;
+
+}
 .cityText2 {
   color: gray;
 }
@@ -757,6 +770,18 @@
   }
   
 }
+@media only screen and (max-width:500px)  {
+  .cityText1Z{
+    font-size: 25px;
+    margin-top: 7%;
+  }
+  .cityText2z{
+    font-size: 15px;
+    margin-top: 7%;
+    font-weight: 800;
+  }
+}
+
 @media only screen and (max-width:454px)  {
   .omanCity{
     margin-top: 20%;

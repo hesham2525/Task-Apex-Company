@@ -173,32 +173,23 @@ export default function Index() {
           <div className="travelText2">
             <div>
               <h3
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "40px",
-                  marginRight: "50px",
-                }}
-                className="cityText1"
+                className="cityText1Z"
               >
                 الرحلات السياحية{" "}
               </h3>
               <p
                 style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  marginRight: "50px",
+                 
                 }}
-                className="cityText2"
+                className="cityText2z"
               >
                 استمتع باستكشاف رحلتك{" "}
               </p>
               <p
                 style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  marginRight: "50px",
+                  
                 }}
-                className="cityText2"
+                className="cityText2z"
               >
                 السياحية المميزة{" "}
               </p>
